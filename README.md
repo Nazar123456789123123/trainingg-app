@@ -1,1 +1,0 @@
-# trainingg-app
