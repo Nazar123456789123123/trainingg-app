@@ -1,7 +1,6 @@
 const loginScreen = document.getElementById("login-screen");
 const programScreen = document.getElementById("program-screen");
 const loginBtn = document.getElementById("googleLoginBtn");
-
 loginBtn.addEventListener("click", () => {
   const provider = new firebase.auth.GoogleAuthProvider();
   firebase.auth().signInWithRedirect(provider);
